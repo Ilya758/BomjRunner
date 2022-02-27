@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "husky": "^7.0.4"
+  },
+  "scripts": {
+    "prepare": "husky install"
+  }
+}

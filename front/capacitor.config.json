@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "bomj-runner",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
