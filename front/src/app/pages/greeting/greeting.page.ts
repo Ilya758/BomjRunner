@@ -7,6 +7,8 @@ import { Router } from '@angular/router';
   styleUrls: ['greeting.page.scss'],
 })
 export class GreetingPage {
+  public login: string;
+  public password: string;
 
   constructor(private router: Router) {}
 
