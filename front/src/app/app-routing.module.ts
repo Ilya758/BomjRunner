@@ -10,19 +10,19 @@ import { StoreComponent } from './pages/store/store';
 
 const routes: Routes = [
   {
-    path: 'greeting',
-    component: GreetingPage,
-    pathMatch: 'full'
-  },
-  {
     path: '',
     redirectTo: 'greeting',
     pathMatch: 'full'
   },
   {
+    path: 'greeting',
+    component: GreetingPage,
+    pathMatch: 'full',
+  },
+  {
     path: 'main-buttons',
     component: MainButtonsComponent,
-    pathMatch: 'full'
+    pathMatch: 'full',
   },
   {
     path: 'settings',
@@ -59,6 +59,6 @@ const routes: Routes = [
   imports: [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
   ],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
 export class AppRoutingModule { }
