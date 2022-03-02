@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { ErrorComponent } from './pages/error/error';
-import { GreetingPage } from './pages/greeting/greeting.page';
+import { GreetingPage } from './pages/greeting/greeting';
 import { LobbyComponent } from './pages/lobby/lobby';
 import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
 import { SettingsComponent } from './pages/settings/settings';

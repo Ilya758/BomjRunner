@@ -7,7 +7,7 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import { GreetingPage } from './pages/greeting/greeting.page';
+import { GreetingPage } from './pages/greeting/greeting';
 import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
 import { SettingsComponent } from './pages/settings/settings';
 import { BackButtonComponent } from './components/back-button/back-button';

@@ -3,8 +3,8 @@ import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-greeting',
-  templateUrl: 'greeting.page.html',
-  styleUrls: ['greeting.page.scss'],
+  templateUrl: 'greeting.html',
+  styleUrls: ['greeting.scss'],
 })
 export class GreetingPage {
   public login: string;
