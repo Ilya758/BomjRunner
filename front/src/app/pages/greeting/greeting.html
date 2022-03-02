@@ -3,7 +3,7 @@
     <ion-row class="ion-justify-content-center">
       <ion-item>
         <ion-label position="stacked">Login</ion-label>
-        <ion-input [(ngModel)]="login" placeholder="your login" ></ion-input>
+        <ion-input [(ngModel)]="login" placeholder="your login"></ion-input>
       </ion-item>
     </ion-row>
     <ion-row class="ion-justify-content-center">
@@ -12,8 +12,8 @@
         <ion-input [(ngModel)]="password" placeholder="your password" type="password"></ion-input>
       </ion-item>
     </ion-row>
-    <ion-row class="ion-justify-content-center">
-      <ion-button [routerLink]="['/main-buttons']">OK</ion-button>
-    </ion-row>
+    <ion-col>
+      <app-main-button [textButton]="textButton"></app-main-button>
+    </ion-col>
   </ion-col>
 </ion-grid>

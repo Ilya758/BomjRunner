@@ -10,12 +10,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { GreetingPage } from './pages/greeting/greeting';
 import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
 import { SettingsComponent } from './pages/settings/settings';
-import { BackButtonComponent } from './components/back-button/back-button';
+import { ButtonComponent } from './components/main-button/main-button';
 import { StatisticsComponent } from './pages/statistics/statistics';
 import { LobbyComponent } from './pages/lobby/lobby';
 
 @NgModule({
-  declarations: [AppComponent, GreetingPage, MainButtonsComponent, SettingsComponent, StatisticsComponent, LobbyComponent, BackButtonComponent],
+  declarations: [AppComponent, GreetingPage, MainButtonsComponent, SettingsComponent, StatisticsComponent, LobbyComponent, ButtonComponent],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule, FormsModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],

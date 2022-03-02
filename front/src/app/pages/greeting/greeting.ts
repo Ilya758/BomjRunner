@@ -9,6 +9,7 @@ import { Router } from '@angular/router';
 export class GreetingPage {
   public login: string;
   public password: string;
+  public textButton = 'OK';
 
   constructor(private router: Router) {}
 
