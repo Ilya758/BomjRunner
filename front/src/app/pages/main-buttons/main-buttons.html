@@ -1,3 +1,20 @@
-<p>
-  main-buttons works!
-</p>
+<ion-grid class="ion-no-margin container">
+  <ion-row class="ion-justify-content-center">
+    <ion-button [routerLink]="['/lobby']">
+      <ion-icon name="game-controller-outline"></ion-icon>
+      Play
+    </ion-button>
+  </ion-row>
+  <ion-row class="ion-justify-content-center">
+    <ion-button [routerLink]="['/settings']">
+      <ion-icon name="cog-outline"></ion-icon>
+      Settings
+    </ion-button>
+  </ion-row>
+  <ion-row class="ion-justify-content-center">
+    <ion-button [routerLink]="['/statistics']">
+      <ion-icon name="pulse-outline"></ion-icon>
+      Statistics
+    </ion-button>
+  </ion-row>
+</ion-grid>
