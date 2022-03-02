@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-settings',
@@ -8,9 +7,6 @@ import { Router } from '@angular/router';
 })
 export class SettingsComponent {
 
-  constructor(private router: Router) { }
+  constructor() { }
 
-  goBack(): void {
-    this.router.navigate(['/main-buttons']);
-  }
 }
