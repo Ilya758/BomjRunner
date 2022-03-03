@@ -1,5 +1,4 @@
-import { Component } from '@angular/core';
-import { Router } from '@angular/router';
+import { Component, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'app-greeting',
@@ -7,13 +6,12 @@ import { Router } from '@angular/router';
   styleUrls: ['greeting.scss'],
 })
 export class GreetingPage {
+  @Input()
   public login: string;
+  @Input()
   public password: string;
+  @Output()
   public textButton = 'OK';
 
-  constructor(private router: Router) {}
-
-  navigate(): void {
-    this.router.navigate(['/main-buttons']);
-  }
+  constructor() {}
 }

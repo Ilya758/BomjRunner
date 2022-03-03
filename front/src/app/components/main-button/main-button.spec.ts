@@ -1,19 +1,19 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 
-import { ButtonComponent } from './main-button';
+import { MainButtonComponent } from './main-button';
 
 describe('BackButtonComponent', () => {
-  let component: ButtonComponent;
-  let fixture: ComponentFixture<ButtonComponent>;
+  let component: MainButtonComponent;
+  let fixture: ComponentFixture<MainButtonComponent>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [ ButtonComponent ],
+      declarations: [ MainButtonComponent ],
       imports: [IonicModule.forRoot()]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(ButtonComponent);
+    fixture = TestBed.createComponent(MainButtonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));
