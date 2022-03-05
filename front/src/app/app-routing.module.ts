@@ -1,12 +1,13 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule }        from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { NotFoundComponent } from './pages/not-found/not-found';
-import { GreetingPage } from './pages/greeting/greeting';
-import { LobbyComponent } from './pages/lobby/lobby';
-import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
-import { SettingsComponent } from './pages/settings/settings';
-import { StatisticsComponent } from './pages/statistics/statistics';
-import { StoreComponent } from './pages/store/store';
+
+import { MainButtonsComponent }                    from './pages/main-buttons/main-buttons';
+import { StatisticsComponent }                     from './pages/statistics/statistics';
+import { SettingsComponent }                       from './pages/settings/settings';
+import { NotFoundComponent }                       from './pages/not-found/not-found';
+import { LobbyComponent }                          from './pages/lobby/lobby';
+import { StoreComponent }                          from './pages/store/store';
+import { GreetingPage }                            from './pages/greeting/greeting';
 
 const routes: Routes = [
   {

@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { IonicModule } from '@ionic/angular';
-import { RouterTestingModule } from '@angular/router/testing';
+import { RouterTestingModule }                     from '@angular/router/testing';
+import { IonicModule }                             from '@ionic/angular';
 
 import { MainButtonComponent } from 'src/app/components/main-button/main-button';
-import { SettingsComponent } from './settings';
+import { SettingsComponent }   from './settings';
 
 describe('SettingsComponent', () => {
   let component: SettingsComponent;

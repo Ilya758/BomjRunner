@@ -5,14 +5,14 @@ import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
-import { AppComponent }         from './app.component';
-import { AppRoutingModule }     from './app-routing.module';
-import { GreetingPage }         from './pages/greeting/greeting';
 import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
-import { SettingsComponent }    from './pages/settings/settings';
-import { StatisticsComponent }  from './pages/statistics/statistics';
-import { LobbyComponent }       from './pages/lobby/lobby';
 import { MainButtonComponent }  from './components/main-button/main-button';
+import { StatisticsComponent }  from './pages/statistics/statistics';
+import { SettingsComponent }    from './pages/settings/settings';
+import { AppRoutingModule }     from './app-routing.module';
+import { LobbyComponent }       from './pages/lobby/lobby';
+import { AppComponent }         from './app.component';
+import { GreetingPage }         from './pages/greeting/greeting';
 
 @NgModule({
   declarations: [
