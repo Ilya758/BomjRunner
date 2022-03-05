@@ -1,5 +1,6 @@
 import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
+import { RouterTestingModule } from '@angular/router/testing';
 
 import { MainButtonsComponent } from './main-buttons';
 
@@ -10,7 +11,7 @@ describe('MainButtonsComponent', () => {
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
       declarations: [ MainButtonsComponent ],
-      imports: [IonicModule.forRoot()]
+      imports: [IonicModule.forRoot(), RouterTestingModule]
     }).compileComponents();
 
     fixture = TestBed.createComponent(MainButtonsComponent);

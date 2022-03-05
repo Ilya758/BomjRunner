@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 import { NotFoundComponent } from './pages/not-found/not-found';
 import { GreetingPage } from './pages/greeting/greeting';
@@ -60,5 +60,6 @@ const routes: Routes = [
     RouterModule.forRoot(routes, { preloadingStrategy: PreloadAllModules })
   ],
   exports: [RouterModule],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class AppRoutingModule { }
