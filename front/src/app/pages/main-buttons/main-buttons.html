@@ -1,20 +1,9 @@
 <ion-grid class="ion-no-margin container">
-  <ion-row class="ion-justify-content-center">
-    <ion-button [routerLink]="['/lobby']">
-      <ion-icon name="game-controller-outline"></ion-icon>
-      Play
-    </ion-button>
-  </ion-row>
-  <ion-row class="ion-justify-content-center">
-    <ion-button [routerLink]="['/settings']">
-      <ion-icon name="cog-outline"></ion-icon>
-      Settings
-    </ion-button>
-  </ion-row>
-  <ion-row class="ion-justify-content-center">
-    <ion-button [routerLink]="['/statistics']">
-      <ion-icon name="pulse-outline"></ion-icon>
-      Statistics
+  <ion-row  *ngFor="let button of buttons"
+            class="ion-justify-content-center">
+    <ion-button routerLink="/{{button.text}}">
+      <ion-icon name={{button.icon}}></ion-icon>
+      {{button.text}}
     </ion-button>
   </ion-row>
 </ion-grid>

@@ -1,4 +1,4 @@
-import { Component, Input, Output } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-greeting',
@@ -6,11 +6,7 @@ import { Component, Input, Output } from '@angular/core';
   styleUrls: ['greeting.scss'],
 })
 export class GreetingPage {
-  @Input()
-  public login: string;
-  @Input()
-  public password: string;
-  @Output()
+  @Input() public app = {login: '',  password: ''};
   public textButton = 'OK';
 
   constructor() {}

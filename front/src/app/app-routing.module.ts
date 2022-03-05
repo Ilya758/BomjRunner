@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
-import { ErrorComponent } from './pages/error/error';
+import { NotFoundComponent } from './pages/not-found/not-found';
 import { GreetingPage } from './pages/greeting/greeting';
 import { LobbyComponent } from './pages/lobby/lobby';
 import { MainButtonsComponent } from './pages/main-buttons/main-buttons';
@@ -40,8 +40,8 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path: 'error',
-    component: ErrorComponent,
+    path: 'not-found',
+    component: NotFoundComponent,
     pathMatch: 'full'
   },
   {
@@ -51,7 +51,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: '/error'
+    redirectTo: '/not-found'
   },
 ];
 

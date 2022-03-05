@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-error',
-  templateUrl: './error.html',
-  styleUrls: ['./error.scss'],
+  templateUrl: './not-found.html',
+  styleUrls: ['./not-found.scss'],
 })
-export class ErrorComponent {
+export class NotFoundComponent {
 
   constructor() { }
 
