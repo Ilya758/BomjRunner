@@ -6,11 +6,12 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve -o",
+    "host": "ng serve --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",
+    "coverage": "ng test --watch=false --code-coverage",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "prepare": "husky install"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -52,7 +53,6 @@
     "eslint-plugin-import": "2.22.1",
     "eslint-plugin-jsdoc": "30.7.6",
     "eslint-plugin-prefer-arrow": "1.2.2",
-    "husky": "^7.0.4",
     "jasmine-core": "~3.8.0",
     "jasmine-spec-reporter": "~5.0.0",
     "karma": "~6.3.2",

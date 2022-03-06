@@ -1,0 +1,19 @@
+<ion-grid class="ion-no-margin container">
+  <ion-col>
+    <ion-row class="ion-justify-content-center">
+      <ion-item>
+        <ion-label position="stacked">Login</ion-label>
+        <ion-input [(ngModel)]="app.login" placeholder="your login"></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-row class="ion-justify-content-center">
+      <ion-item>
+        <ion-label position="stacked">Password</ion-label>
+        <ion-input [(ngModel)]="app.password" placeholder="your password" type="password"></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-col>
+      <app-main-button [textButton]="textButton"></app-main-button>
+    </ion-col>
+  </ion-col>
+</ion-grid>
